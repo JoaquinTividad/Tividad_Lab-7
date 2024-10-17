@@ -47,6 +47,8 @@ if(prelim>=40 and prelim<=100 and midterm>=40 and midterm<=100 and final>=40 and
     elif(finale<75):
         print("Final Grade is:", finale)
         print("You failed.")
+    else:
+        print("Invalid Input. Please Try Again.")
        
 else:
     print("Invalid Computation or Input of Grades. Plese try again.")
