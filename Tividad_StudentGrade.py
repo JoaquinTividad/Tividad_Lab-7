@@ -19,31 +19,31 @@ finale = round(computation)
 if(prelim>=40 and prelim<=100 and midterm>=40 and midterm<=100 and final>=40 and final<=100):
     if(finale>=99 and finale<=100):
         print("Final Grade is:", finale)
-        print("Your GPA is 1.00.")
+        print("Your GPA is 1.00. Excellent!")
     elif(finale>=96 and finale<=98):
         print("Final Grade is:", finale)
-        print("Your GPA is 1.25.")
+        print("Your GPA is 1.25. Outstanding!")
     elif(finale>=93 and finale<=95):
         print("Final Grade is:", finale)
-        print("Your GPA is 1.50.")
+        print("Your GPA is 1.50. Superior!")
     elif(finale>=90 and finale<=92):
         print("Final Grade is:", finale)
-        print("Your GPA is 1.75.")
+        print("Your GPA is 1.75. Very Good!")
     elif(finale>=87 and finale<=89):
         print("Final Grade is:", finale)
-        print("Your GPA is 2.00.")
+        print("Your GPA is 2.00. Good!")
     elif(finale>=84 and finale<=86):
         print("Final Grade is:", finale)
-        print("Your GPA is 2.25.")
+        print("Your GPA is 2.25. Satisfactory!")
     elif(finale>=81 and finale<=83):
         print("Final Grade is:", finale)
-        print("Your GPA is 2.50.")
+        print("Your GPA is 2.50. Fairly Satisfactory!")
     elif(finale>=77 and finale<=80):
         print("Final Grade is:", finale)
-        print("Your GPA is 2.75.")
+        print("Your GPA is 2.75. Fair.")
     elif(finale>=75 and finale<=77):
         print("Final Grade is:", finale)
-        print("Your GPA is 3.00.")
+        print("Your GPA is 3.00. Passed.")
     elif(finale<75):
         print("Final Grade is:", finale)
         print("You failed.")
